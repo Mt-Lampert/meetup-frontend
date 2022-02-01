@@ -1,38 +1,8 @@
-# create-svelte
+# Welcome!
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+So you want to know what I am doing here? The answer is: I am building an exercise project in Svelte and Golang that builds a Meetup management system for a social network. 
 
-## Creating a project
+Since I have just started the project, there's not much interesting to find here. However, you can take a look into the `features` directory where I describe the features this project hopes to implement.
 
-If you're seeing this, you've probably already done this step. Congrats!
+What would you need a meetup for? Let's say you are using a social network and you have made some kind of "friends" there. You chat, you exchange pictures, you have some kind of community. Wouldn't it be nice to meet these friends in person? Once, twice, three times a year? Well, meetings like this have to be organized. There must be a host, there must be a location, there must be a date, there must be the possibility to register etc. This is what meetup management is all about.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
