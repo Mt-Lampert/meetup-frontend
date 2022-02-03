@@ -1,13 +1,22 @@
+## Recherchethemen:
+
+* dynamisch geladene components
+* hover-effekte
+
+## 2022-02-03 10:50
+
+Das Svelte-Material-Design werde ich NICHT nehmen. Bin taktisch falsch vorgegangen. Ich haette einen Branch machen sollen, der die ganze Installation fuer SMUI beinhaltet. Dann koennte ich jetzt einfach 
+wieder zurueck zum `master` und den SMUI-Branch loeschen koennen, so wie das gestern gelaufen ist.
+
+Na gut. Wieder was gelernt. Bzw. wiederentdeckt.
+
+Hab mich entschlossen, auf _Bulma_ umzusteigen. Kann genau so viel wie Material, ist aber flexibler und mir schon besser bekannt. Die Standard-Einstellungen von Bulma werden reichen, bis die Features alle implementiert sind. Dann koennen wir Farbschemen und all die anderen Sachen anpassen.
+
 
 ## 2022-02-02 09:49
 
 Wir sollten uns Gedanken darueber machen, in welcher Reihenfolge wir die Features abarbeiten und in welcher Reihenfolge wir recherchieren. Am Anfang steht natuerlich die Landing Page. Dafuer brauchen wir natuerlich auch schon Svelte UI. 
 
-
-### Recherchethemen:
-
-* dynamisch geladene components
-* hover-effekte
 
 
 ## 2022-02-01 16:53
