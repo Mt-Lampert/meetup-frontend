@@ -5,6 +5,17 @@
 * dynamisch geladene components
 * hover-effekte
 
+## 2022-02-05 16:52
+
+Nach drei Fehlversuchen hab ich es endlich geschafft, Jest fuer das Unit Testing in dieses Projekt
+einzubinden. 
+[Hier](https://dockyard.com/blog/2022/01/27/how-to-set-up-jest-in-a-sveltekit-app)
+die Seite, nach deren Anleitung das moeglich wurde. Ich bin extrem froh und dankbar, dass das
+geklappt hat. Jetzt muss ich nur noch ein gutes Tutorial fuer den Einsatz von Jest finden. Aber die Specs lesen sich gut!
+
+Ganz allgemein ist das, was mich vom Durchstarten abhaelt, nur die Orientierung und die Installation
+der wichtigen Werkzeuge.
+
 ## 2022-02-03 10:50
 
 Das Svelte-Material-Design werde ich NICHT nehmen. Bin taktisch falsch vorgegangen. Ich haette einen Branch machen sollen, der die ganze Installation fuer SMUI beinhaltet. Dann koennte ich jetzt einfach 
