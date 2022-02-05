@@ -1,5 +1,7 @@
 ## Recherchethemen:
 
+* Svelte-Testing
+* Carousel-Component
 * dynamisch geladene components
 * hover-effekte
 
