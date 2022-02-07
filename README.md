@@ -6,3 +6,11 @@ Since I have just started the project, there's not much interesting to find here
 
 What would you need a meetup for? Let's say you are using a social network and you have made some kind of "friends" there. You chat, you exchange pictures, you have some kind of community. Wouldn't it be nice to meet these friends in person? Once, twice, three times a year? Well, meetings like this have to be organized. There must be a host, there must be a location, there must be a date, there must be the possibility to register etc. This is what meetup management is all about.
 
+## What you can do
+
+1. Download the project using `git clone` or using the `download zip` method here on Github
+2. Inside the project folder, run `npm install` to install the dependencies.
+3. Inside the project folder, run `npm run dev -- --open` to see it in the browser
+4. Inside the project folder, run `npm run test` to run all the unit tests.
+
+Enjoy!
