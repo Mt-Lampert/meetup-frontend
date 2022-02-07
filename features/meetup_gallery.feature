@@ -8,13 +8,13 @@ Feature: Meetup Gallery
   Scenario: Browsing the Gallery
     Given I have opened the Landing Page
     When I look at the gallery
-    Then I see three meetup cards showing an image, a title and a date.
+    Then I see a meetup card showing an image, a title and a date.
     When I click on the "Next" button
-    And there are three more meetups in the list
-    Then the Gallery moves three elements to the right.
+    And there is still another meetup in the list
+    Then the Gallery moves one elements to the right.
     When I click on the "Previuos" button
-    And there are at least three previous meetups in the list
-    Then the Gallery moves three elements to the left.
+    And there is still another previous meetup in the list
+    Then the Gallery moves one element to the left.
 
   Scenario: Clicking one Meetup
     When I click on one of the meetup cards

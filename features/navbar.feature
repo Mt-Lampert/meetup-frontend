@@ -8,14 +8,17 @@ Feature: Nav Bar
       Given I am a guest user
       When I look at the nav bar
       Then I see the logo on the left side
-      And I see a menu bar on the right side showing "Meetups".
+      And I see a menu bar on the right side showing "Meetups"
+      And I see "Sign Up" on the menu bar
+      And I see "Login" on the menu bar
 
     Scenario: Navbar for registered user
       Given I am a signed-in user
       When I look at the nav bar
-      Then I see everything a guest user sees
-      And I also see "New" in the menu bar
-      And I also see "Profile" in the menu bar.
+      Then I no longer see "Sign Up" and "Logged In" on the menu bar
+      But I still see "Meetups" on the menu bar
+      And I also see "New" in the menu bar for creating a new meetup
+      And I also see "Profile" in the menu bar for my personal dashboard
 
     Scenario: Clicking "Meetups"
       When I click on the "Meetups" menu item
