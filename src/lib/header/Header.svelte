@@ -6,31 +6,24 @@
 <header>
 	<nav class="navbar is-white" aria-label="main navigation">
 		<div class="navbar-brand">
-			<a class="navbar-item" href="#/">
-				<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="bulma-logo">
+			<a class="navbar-item" href="/">
+				<img src="/images/meetup-logo.svg" alt="meetup-logo" />
 			</a>
 		</div>
-	
+
 		<div id="navbarBasicExample" class="navbar-menu">
-				
 			<div class="navbar-end">
 				<div class="navbar-item">
 					<!-- <div class="buttons"> -->
-						<a class="is-ghost" href="#/">
-							<strong>Sign up</strong>
-						</a>
-						<a class="is-ghost" href="#/">
-							Log in
-						</a>
+					<a class="is-ghost" href="/signup">
+						<strong>Sign up</strong>
+					</a>
+					<a class="is-ghost" href="/login"> Log in </a>
 					<!-- </div> -->
 				</div>
 			</div>
 		</div>
 	</nav>
-
-	<div class="corner">
-		<!-- TODO put something else here? github link? -->
-	</div>
 </header>
 
 <style>
