@@ -1,20 +1,56 @@
 <script context="module">
-	import UnderConstruction from "$lib/UnderConstruction.svelte"
+	import dummyMeetups from '$lib/dummy-meetups';
 	export const prerender = true;
+
+	// const myMeetups = dummyMeetups.slice(4,7)
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
+<section class="hero is-medium has-text-center">
+  <div class="hero-body">
+    <p class="title has-text-info-dark">
+      Willkommen!
+    </p>
+    <p class="subtitle">
+      Viel Spaß mit unserem kleinen Meetup-Projekt
+    </p>
+  </div>
+</section>
+
+
 <section>
-	<UnderConstruction />
+	<h1 class="title has-text-info-dark">Unsere Meetups</h1>
+	<h2 class="subtitle">Eine kleine Auswahl</h2>
 
-	<h1 class="has-text-info-dark">Hello, Folks</h1>
 
-	<p class="has-text-grey">This is SvelteKit with <span class="has-text-primary">Bulma</span></p>
+	<div class="container is-max-desktop">
 
-	<p>And it works!!!!</p>
+		<div class="columns is-multiline">
+			{#each dummyMeetups as meetup (meetup.id)}
+				<div class="column is-one-third">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-16by9">
+								<!-- svelte-ignore a11y-img-redundant-alt -->
+								<img src="/images/{meetup.img}" alt="Placeholder image" />
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content">
+									<p class="title is-5">{meetup.title}</p>
+									<p class="subtitle is-6">{meetup.city}, {meetup.date}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
 </section>
 
 <style>
@@ -29,8 +65,8 @@
 	h1 {
 		width: 100%;
 	}
-	
-	.under-construction {
-		margin-bottom: 2rem;
+
+	.hero-body {
+		text-align: center;
 	}
 </style>

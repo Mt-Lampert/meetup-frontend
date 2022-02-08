@@ -2,8 +2,35 @@
 
 * Svelte-Testing
 * Carousel-Component
-* dynamisch geladene components
+* dynamisch nachgeladene components
+  * Darunter verstehe ich Components, die nach einem Mausklick nachgeladen werden. Das brauchen wir fuer die wachsende Kachelwand anstelle von Karussell. aber das ist zukunftsmusik.
 * hover-effekte
+
+## NEXT:
+
+* [x] 12 Dummy-Meetups in DE, alle mit ID, title, Datum, image und code (z.B. '489fa'; mit dem Code werden img-Dateinamen zugeordnet.)
+* [x] 12 Dummy-Bilder fuer verschiedene Deutsche Staedte, die den Dummy-Meetups zugeordnet werden.
+* [ ] GalleryMeetup-Component erstellen. Brauchen wir fuers Karussell.
+* [ ] Karussell-Einheit installieren fuer die Landing Page
+* [ ] Dummy-Meetups ins Karussell integrieren.
+
+
+## 2022-02-08 -- Tagesplanung:
+* [x] 12 Dummy-Meetups in DE, alle mit ID, title, Datum, image und code (z.B. '489fa'; mit dem Code werden img-Dateinamen zugeordnet.)
+* [x] 12 Dummy-Bilder fuer verschiedene Deutsche Staedte, die den Dummy-Meetups zugeordnet werden.
+  
+__11:41:__  Ich hab alles fertig gemacht, und mit Hilfe des Bulma-Columns-Containers in index.svelte eingebaut. Hat insgesamt 1 Stunde gedauert, und das Ergebnis ist hoffnungslos geil! Bin total von den Socken, wie vergleichsweise einfach das mit Bulma ging und wie gut das Ergebnis ausschaut! Und Svelte hat mit seiner geradlinigen, simplen Art ebenfalls immens zum schnellen, effektiven Ergebnis beigetragen.
+
+
+## 2022-02-08 07:39
+
+Ich hab gestern das erste Mal ins Karoussell hineingeschaut.  Ich werde es doch mit Karoussell machen. Schon um das Svelte-Karoussell-Element auszuprobieren; es ist naemlich sehr vielversprechend. Die "wachsende Kachelwand" wird auf spaeter verschoben.
+
+Jetzt geht es langsam wirklich in die Implementierung. Bis jetzt war alles Installation und Projekt-Vorbereitung. Jetzt geht es los! Und das ist sehr, sehr aufregend!
+
+Planung ist jetzt alles: Was wir brauchen, und in welcher Reihenfolge wir es durchfuehren. Eine Minute Planungsarbeit erspart uns 30 Minuten Fehlersuche. Also wollen wir uns Muehe geben.
+
+
 
 ## 2022-02-05 16:52
 
