@@ -1,59 +1,55 @@
-<script context="module">
+<script>
 	import dummyMeetups from '$lib/dummy-meetups';
-	export const prerender = true;
+	import GalleryCard from '$lib/GalleryCard.svelte';
 
-	// const myMeetups = dummyMeetups.slice(4,7)
+	let maxMeetups = 6; // init value
+	let myMeetups = [];
+
+	$: myMeetups = dummyMeetups.slice(0, maxMeetups);
+
+	function addRow() {
+		if (maxMeetups <= 24) {
+			maxMeetups += 3;
+		}
+	}
 </script>
 
+<!-- svelte-ignore module-script-reactive-declaration -->
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
 <section class="hero is-medium has-text-center">
-  <div class="hero-body">
-    <p class="title is-1 has-text-info-dark">
-      Willkommen!
-    </p>
-    <p class="subtitle">
-      Viel Spaß mit unserem kleinen Meetup-Projekt
-    </p>
-  </div>
+	<div class="hero-body">
+		<p class="title is-1 has-text-info-dark">Willkommen!</p>
+		<p class="subtitle">Viel Spaß mit unserem kleinen Meetup-Projekt</p>
+	</div>
 </section>
-
 
 <section>
 	<h1 class="title has-text-info-dark">Unsere Meetups</h1>
 	<h2 class="subtitle">Eine kleine Auswahl</h2>
 
-
 	<div class="container is-max-desktop">
-
 		<div class="columns is-multiline">
-			{#each dummyMeetups as meetup (meetup.id)}
-				<div class="column is-one-third">
-					<div class="card">
-						<div class="card-image">
-							<figure class="image is-16by9">
-								<!-- svelte-ignore a11y-img-redundant-alt -->
-								<img src="/images/{meetup.img}" alt="Placeholder image" />
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-content">
-									<p class="title is-5">{meetup.title}</p>
-									<p class="subtitle is-6">{meetup.city}, {meetup.date}</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			{#each myMeetups as meetup (meetup.id)}
+				<GalleryCard {meetup} />
 			{/each}
 		</div>
 	</div>
+
+	{#if maxMeetups <= 9}
+		<div class="container btn-container">
+			<button class="button is-info" on:click={addRow}>More</button>
+		</div>
+	{/if}
 </section>
 
 <style>
+	.btn-container {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
 	section {
 		display: flex;
 		flex-direction: column;

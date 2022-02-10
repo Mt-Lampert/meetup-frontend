@@ -8,12 +8,19 @@
 
 ## NEXT:
 
-* [x] 12 Dummy-Meetups in DE, alle mit ID, title, Datum, image und code (z.B. '489fa'; mit dem Code werden img-Dateinamen zugeordnet.)
-* [x] 12 Dummy-Bilder fuer verschiedene Deutsche Staedte, die den Dummy-Meetups zugeordnet werden.
-* [ ] GalleryMeetup-Component erstellen. Brauchen wir fuers Karussell.
-* [ ] Karussell-Einheit installieren fuer die Landing Page
-* [ ] Dummy-Meetups ins Karussell integrieren.
+* [ ] Weiter im Kurs mit Max.
 
+## 2022-02-10
+
+* [x] GalleryMeetup-Component erstellen. Brauchen wir fuers Karussell.
+* [x] Karussell-Einheit installieren fuer die Landing Page
+* [x] Dummy-Meetups ins Karussell integrieren.
+
+Das mit dem Karussell hat sich erst mal erledigt. Bis auf weiteres.  Es ist mir nicht gelungen, das Svelte-Karussel hier in SvelteKit mit Vite flott zu bekommen. Irgendwas ging immer schief, und zwar ohne dass ich irgendwie etwas machen konnte. Hab es dann mit
+[tiny-slider](http://ganlanyuan.github.io/tiny-slider/)
+versucht. War auch ein Schlag ins Wasser. Hat mich gefrustet. Auf der anderen Seite: SvelteKit ist ein sehr junges Projekt, und Vite ist es auch. Da koennen solche Sachen schon mal vorkommen. Vielleicht hab ich auch irgendetwas noch nicht richtig verstanden. Dann wird sich das alles erledigen, wenn es soweit ist.
+
+Ich habe stattdessen die andere Loesung mit den dynamischen Gallery-Cards implementiert. Die ging richtig gut. Sogar mit Transitions. Hat mich fuer den Frust mit dem Karussell wieder entschaedigt.
 
 ## 2022-02-08 -- Tagesplanung:
 * [x] 12 Dummy-Meetups in DE, alle mit ID, title, Datum, image und code (z.B. '489fa'; mit dem Code werden img-Dateinamen zugeordnet.)
