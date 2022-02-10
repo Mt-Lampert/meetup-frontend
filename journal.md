@@ -19,7 +19,8 @@
 * [x] 12 Dummy-Meetups in DE, alle mit ID, title, Datum, image und code (z.B. '489fa'; mit dem Code werden img-Dateinamen zugeordnet.)
 * [x] 12 Dummy-Bilder fuer verschiedene Deutsche Staedte, die den Dummy-Meetups zugeordnet werden.
   
-__11:41:__  Ich hab alles fertig gemacht, und mit Hilfe des Bulma-Columns-Containers in index.svelte eingebaut. Hat insgesamt 1 Stunde gedauert, und das Ergebnis ist hoffnungslos geil! Bin total von den Socken, wie vergleichsweise einfach das mit Bulma ging und wie gut das Ergebnis ausschaut! Und Svelte hat mit seiner geradlinigen, simplen Art ebenfalls immens zum schnellen, effektiven Ergebnis beigetragen.
+### 11:41 
+Ich hab alles fertig gemacht, und mit Hilfe des Bulma-Columns-Containers in index.svelte eingebaut. Hat insgesamt 1 Stunde gedauert, und das Ergebnis ist hoffnungslos geil! Bin total von den Socken, wie vergleichsweise einfach das mit Bulma ging und wie gut das Ergebnis ausschaut! Und Svelte hat mit seiner geradlinigen, simplen Art ebenfalls immens zum schnellen, effektiven Ergebnis beigetragen.
 
 
 ## 2022-02-08 07:39

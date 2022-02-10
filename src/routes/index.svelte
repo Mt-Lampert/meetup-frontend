@@ -11,7 +11,7 @@
 
 <section class="hero is-medium has-text-center">
   <div class="hero-body">
-    <p class="title has-text-info-dark">
+    <p class="title is-1 has-text-info-dark">
       Willkommen!
     </p>
     <p class="subtitle">
